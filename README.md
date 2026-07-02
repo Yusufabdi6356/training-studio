@@ -1,6 +1,6 @@
-# Training Studio — Landing Page Clone
+# Training Studio — Landing Page
 
-Final HTML & CSS project: a clone of the [Training Studio](https://templatemo.com/live/templatemo_548_training_studio) template by TemplateMo, rebuilt from scratch with plain **HTML**, **CSS**, and a small amount of **vanilla JavaScript** — no Bootstrap, no jQuery.
+Final HTML & CSS project: based on the [Training Studio](https://templatemo.com/live/templatemo_548_training_studio) template by TemplateMo, rebuilt from scratch with plain **HTML**, **CSS**, and a small amount of **vanilla JavaScript** — no Bootstrap, no jQuery.
 
 ## Features
 
@@ -31,14 +31,6 @@ Final/
 ├── js/main.js
 ├── assets/images/
 └── screenshots/
-```
-
-## How to Run
-
-Just open `index.html` in any browser, or serve the folder with any static server:
-
-```
-npx http-server . -p 8080
 ```
 
 ## Screenshots
