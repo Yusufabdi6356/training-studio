@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Studio - Final HTML &amp; CSS Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container nav-wrap">
+        <a href="#top" class="logo">Training <em>Studio</em></a>
+
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#top" class="active">Home</a></li>
+            <li><a href="#features">About</a></li>
+            <li><a href="#our-classes">Classes</a></li>
+            <li><a href="#schedule">Schedules</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+            <li><a href="#" class="btn-signup">Sign Up</a></li>
+          </ul>
+        </nav>
+
+        <button class="menu-trigger" id="menuTrigger" aria-label="Open menu">
+          <span>Menu</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="main-banner" id="top">
+      <video autoplay muted loop playsinline id="bg-video">
+        <source src="assets/images/gym-video.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay">
+        <div class="caption">
+          <h6>work harder, get stronger</h6>
+          <h2>easy with our <em>gym</em></h2>
+          <a href="#features" class="main-button">Become a member</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Choose <em>Program</em></h2>
+          <img src="assets/images/line-dec.png" alt="waves" />
+          <p>
+            Training Studio is a gym &amp; fitness landing page. This clone was
+            hand-built with plain HTML and CSS as a final project.
+          </p>
+        </div>
+
+        <ul class="features-items">
+          <li class="feature-item">
+            <div class="left-icon">
+              <img src="assets/images/features-first-icon.png" alt="icon" />
+            </div>
+            <div class="right-content">
+              <h4>Basic Fitness</h4>
+              <p>
+                Start your journey with simple full-body workouts designed for
+                beginners who want to build a healthy routine.
+              </p>
+              <a href="#" class="text-button">Discover More</a>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="left-icon">
+              <img src="assets/images/features-first-icon.png" alt="icon" />
+            </div>
+            <div class="right-content">
+              <h4>New Gym Training</h4>
+              <p>
+                Learn how to use every machine in the gym safely and effectively
+                with guidance from our coaches.
+              </p>
+              <a href="#" class="text-button">Discover More</a>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="left-icon">
+              <img src="assets/images/features-first-icon.png" alt="icon" />
+            </div>
+            <div class="right-content">
+              <h4>Basic Muscle Course</h4>
+              <p>
+                A structured strength program focusing on the main muscle groups
+                with progressive overload.
+              </p>
+              <a href="#" class="text-button">Discover More</a>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="left-icon">
+              <img src="assets/images/features-first-icon.png" alt="icon" />
+            </div>
+            <div class="right-content">
+              <h4>Advanced Muscle Course</h4>
+              <p>
+                Push beyond your limits with advanced hypertrophy techniques for
+                experienced lifters.
+              </p>
+              <a href="#" class="text-button">Discover More</a>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="left-icon">
+              <img src="assets/images/features-first-icon.png" alt="icon" />
+            </div>
+            <div class="right-content">
+              <h4>Yoga Training</h4>
+              <p>
+                Improve flexibility, balance, and calm your mind with our guided
+                yoga sessions for all levels.
+              </p>
+              <a href="#" class="text-button">Discover More</a>
+            </div>
+          </li>
+          <li class="feature-item">
+            <div class="left-icon">
+              <img src="assets/images/features-first-icon.png" alt="icon" />
+            </div>
+            <div class="right-content">
+              <h4>Body Building Course</h4>
+              <p>
+                Sculpt your physique with dedicated bodybuilding plans,
+                nutrition tips, and expert coaching.
+              </p>
+              <a href="#" class="text-button">Discover More</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta" id="call-to-action">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Don&rsquo;t <em>think</em>, begin <em>today</em>!</h2>
+          <p>
+            Your body can stand almost anything &mdash; it&rsquo;s your mind you
+            have to convince. Join us now and take the first step toward a
+            stronger you.
+          </p>
+          <a href="#our-classes" class="main-button">Become a member</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="our-classes">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Our <em>Classes</em></h2>
+          <img src="assets/images/line-dec.png" alt="waves" />
+          <p>
+            Pick the class that matches your goal. Every class is led by a
+            certified trainer and adapted to your level.
+          </p>
+        </div>
+
+        <div class="tabs">
+          <div class="tabs-menu">
+            <ul>
+              <li>
+                <a href="#tabs-1" class="tab-link active"
+                  ><img src="assets/images/tabs-first-icon.png" alt="" />First
+                  Training Class</a
+                >
+              </li>
+              <li>
+                <a href="#tabs-2" class="tab-link"
+                  ><img src="assets/images/tabs-first-icon.png" alt="" />Second
+                  Training Class</a
+                >
+              </li>
+              <li>
+                <a href="#tabs-3" class="tab-link"
+                  ><img src="assets/images/tabs-first-icon.png" alt="" />Third
+                  Training Class</a
+                >
+              </li>
+              <li>
+                <a href="#tabs-4" class="tab-link"
+                  ><img src="assets/images/tabs-first-icon.png" alt="" />Fourth
+                  Training Class</a
+                >
+              </li>
+            </ul>
+            <a href="#schedule" class="main-rounded-button"
+              >View All Schedules</a
+            >
+          </div>
+
+          <div class="tabs-content">
+            <article id="tabs-1" class="tab-panel active">
+              <img
+                src="assets/images/training-image-01.jpg"
+                alt="First Training Class"
+              />
+              <h4>First Training Class</h4>
+              <p>
+                A high-energy full-body session that combines cardio and
+                strength. Perfect for members who want a complete workout in one
+                hour, guided step by step by our trainers.
+              </p>
+              <a href="#schedule" class="main-button">View Schedule</a>
+            </article>
+            <article id="tabs-2" class="tab-panel">
+              <img
+                src="assets/images/training-image-02.jpg"
+                alt="Second Training Class"
+              />
+              <h4>Second Training Class</h4>
+              <p>
+                Focused strength training built around the big lifts: squat,
+                bench, and deadlift. Learn proper form, build raw power, and
+                track your progress week by week.
+              </p>
+              <a href="#schedule" class="main-button">View Schedule</a>
+            </article>
+            <article id="tabs-3" class="tab-panel">
+              <img
+                src="assets/images/training-image-03.jpg"
+                alt="Third Training Class"
+              />
+              <h4>Third Training Class</h4>
+              <p>
+                Interval-based conditioning that burns calories fast. Short,
+                intense rounds with active recovery keep your heart rate up and
+                your motivation higher.
+              </p>
+              <a href="#schedule" class="main-button">View Schedule</a>
+            </article>
+            <article id="tabs-4" class="tab-panel">
+              <img
+                src="assets/images/training-image-04.jpg"
+                alt="Fourth Training Class"
+              />
+              <h4>Fourth Training Class</h4>
+              <p>
+                A mobility and core stability class that improves posture,
+                prevents injury, and builds the foundation every athlete needs.
+              </p>
+              <a href="#schedule" class="main-button">View Schedule</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section schedule" id="schedule">
+      <div class="container">
+        <div class="section-heading dark-bg">
+          <h2>Classes <em>Schedule</em></h2>
+          <img src="assets/images/line-dec.png" alt="waves" />
+          <p>
+            Choose a day to see which classes are running. Highlighted times
+            match the selected day.
+          </p>
+        </div>
+
+        <ul class="schedule-filter" id="scheduleFilter">
+          <li class="active" data-day="monday">Monday</li>
+          <li data-day="tuesday">Tuesday</li>
+          <li data-day="wednesday">Wednesday</li>
+          <li data-day="thursday">Thursday</li>
+          <li data-day="friday">Friday</li>
+        </ul>
+
+        <div class="schedule-table">
+          <table>
+            <tbody>
+              <tr>
+                <td class="day-time">Fitness Class</td>
+                <td class="ts-item" data-days="monday">10:00AM - 11:30AM</td>
+                <td class="ts-item" data-days="tuesday">2:00PM - 3:30PM</td>
+                <td>William G. Stewart</td>
+              </tr>
+              <tr>
+                <td class="day-time">Muscle Training</td>
+                <td class="ts-item" data-days="friday">10:00AM - 11:30AM</td>
+                <td class="ts-item" data-days="thursday friday">
+                  2:00PM - 3:30PM
+                </td>
+                <td>Paul D. Newman</td>
+              </tr>
+              <tr>
+                <td class="day-time">Body Building</td>
+                <td class="ts-item" data-days="tuesday">10:00AM - 11:30AM</td>
+                <td class="ts-item" data-days="monday">2:00PM - 3:30PM</td>
+                <td>Boyd C. Harris</td>
+              </tr>
+              <tr>
+                <td class="day-time">Yoga Training Class</td>
+                <td class="ts-item" data-days="wednesday">10:00AM - 11:30AM</td>
+                <td class="ts-item" data-days="friday">2:00PM - 3:30PM</td>
+                <td>Hector T. Daigle</td>
+              </tr>
+              <tr>
+                <td class="day-time">Advanced Training</td>
+                <td class="ts-item" data-days="thursday">10:00AM - 11:30AM</td>
+                <td class="ts-item" data-days="wednesday">2:00PM - 3:30PM</td>
+                <td>Bret D. Bowers</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trainers">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Expert <em>Trainers</em></h2>
+          <img src="assets/images/line-dec.png" alt="waves" />
+          <p>
+            Our certified trainers bring years of experience and genuine passion
+            to every session they lead.
+          </p>
+        </div>
+
+        <div class="trainers-grid">
+          <div class="trainer-item">
+            <div class="image-thumb">
+              <img src="assets/images/first-trainer.jpg" alt="Bret D. Bowers" />
+            </div>
+            <div class="down-content">
+              <span>Strength Trainer</span>
+              <h4>Bret D. Bowers</h4>
+              <p>
+                Ten years of powerlifting experience and a passion for helping
+                beginners fall in love with strength training.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="trainer-item">
+            <div class="image-thumb">
+              <img
+                src="assets/images/second-trainer.jpg"
+                alt="Hector T. Daigle"
+              />
+            </div>
+            <div class="down-content">
+              <span>Muscle Trainer</span>
+              <h4>Hector T. Daigle</h4>
+              <p>
+                Bodybuilding specialist who designs hypertrophy programs
+                tailored to your body type and goals.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="trainer-item">
+            <div class="image-thumb">
+              <img src="assets/images/third-trainer.jpg" alt="Paul D. Newman" />
+            </div>
+            <div class="down-content">
+              <span>Power Trainer</span>
+              <h4>Paul D. Newman</h4>
+              <p>
+                Former athlete focused on explosive power, speed, and
+                conditioning for sport and everyday life.
+              </p>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact-us">
+      <div class="contact-grid">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="600"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+            title="Our location"
+          ></iframe>
+        </div>
+        <div class="contact-form">
+          <form id="contact" action="#" method="post">
+            <div class="form-row">
+              <input
+                name="name"
+                type="text"
+                placeholder="Your Name*"
+                required
+              />
+              <input
+                name="email"
+                type="email"
+                placeholder="Your Email*"
+                required
+              />
+            </div>
+            <input name="subject" type="text" placeholder="Subject" />
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="main-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Copyright &copy; 2026 Training Studio - Designed by
+        <a rel="nofollow" href="https://templatemo.com" target="_blank"
+          >TemplateMo</a
+        >
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
